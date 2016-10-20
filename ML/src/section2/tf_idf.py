@@ -51,10 +51,12 @@ if __name__ == '__main__':
     
     transformer = TfidfTransformer()
     
-    tfidfspace.tdm = vectorizer.fit_transform(bunch.contents)
+    tfidfspace.tdm = transformer.fit_transform(vectorizer.fit_transform(bunch.contents))
     
     tfidfspace.vocabulary = vectorizer.vocabulary
     
     space_path = r'E:\Tools\Python\ml\data\tc-corpus-answer\train_word_bag\tfidfspace.dat'
     
     writebunchobj(space_path, tfidfspace)
+    
+    print 'saved'

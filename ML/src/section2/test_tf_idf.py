@@ -27,7 +27,7 @@ vectorizer = TfidfVectorizer(stop_words=stpwrdlst, sublinear_tf=True, max_df= 0.
 
 transformer = TfidfTransformer()
     
-testspace.tdm = vectorizer.fit_transform(bunch.contents)
+testspace.tdm = transformer.fit_transform(vectorizer.fit_transform(bunch.contents))
 
 testspace.vocabulary = trainbunch.vocabulary
 
