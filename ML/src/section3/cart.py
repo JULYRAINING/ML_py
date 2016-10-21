@@ -24,7 +24,7 @@ siny = np.sin(x)
 X = mat(x).T
 y = siny + np.random.rand(1, len(siny))*1.5
 y = y.tolist()[0]
-clf = DecisionTreeRegressor(max_depth=4)
+clf = DecisionTreeRegressor(max_depth=3)
 clf.fit(X, y)
 
 X_test = np.arange(-5.0, 5.0, 0.05)[:, np.newaxis]
