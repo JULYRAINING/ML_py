@@ -14,5 +14,3 @@ print A
 
 print np.linalg.inv(A)
 print '特征值：', evals , "\n特征向量：", evecs
-
-print 

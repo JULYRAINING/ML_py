@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/pic/read_pic.py=utf-8
 encoding//src/section1/display/display_graph.py=utf-8
 encoding//src/section1/display/display_linear.py=utf-8
 encoding//src/section1/display/display_tree.py=utf-8
@@ -23,4 +24,5 @@ encoding//src/section4/Recommand_Lib.py=utf-8
 encoding//src/section4/bikMeans_test.py=utf-8
 encoding//src/section4/k_means.py=utf-8
 encoding//src/section4/scikit_kMeans.py=utf-8
+encoding//src/section5/successive_approximation_met_hod.py=utf-8
 encoding//src/section_base/matrix.py=utf-8
