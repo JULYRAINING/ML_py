@@ -1,5 +1,12 @@
 eclipse.preferences.version=1
+encoding//src/pic/channel/__init__.py=utf-8
+encoding//src/pic/channel/pic_channel.py=utf-8
+encoding//src/pic/pic_cover/pic_cover.py=utf-8
+encoding//src/pic/pic_enhance/enhance.py=utf-8
+encoding//src/pic/pic_svd/pic_svd.py=utf-8
 encoding//src/pic/read_pic.py=utf-8
+encoding//src/pic/svd.py=utf-8
+encoding//src/pic/svd_compute.py=utf-8
 encoding//src/section1/display/display_graph.py=utf-8
 encoding//src/section1/display/display_linear.py=utf-8
 encoding//src/section1/display/display_tree.py=utf-8
